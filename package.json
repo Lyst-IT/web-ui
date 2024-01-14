@@ -1,0 +1,31 @@
+{
+  "name": "@sithumdev/ui-web",
+  "version": "0.0.0-development",
+  "description": "This library is developed to maintain a single code base for UI elements",
+  "main": "src/index.ts",
+  "files": [
+    "src/**/*"
+  ],
+  "repository": {
+    "url": "https://github.com/Lyst-IT/web-ui.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lyst-IT/web-ui/issues"
+  },
+  "scripts": {
+    "test": "npm run test",
+    "semantic-release": "semantic-release"
+  },
+  "author": "Sithum Basnayaka",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.3",
+    "@types/react": "^18.2.47",
+    "semantic-release": "^23.0.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "typescript": "^5.3.3"
+  }
+}
