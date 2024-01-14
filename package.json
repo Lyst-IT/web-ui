@@ -1,5 +1,5 @@
 {
-  "name": "@sithumdev/ui-web",
+  "name": "@lyst-it/ui-web",
   "version": "0.0.0-development",
   "description": "This library is developed to maintain a single code base for UI elements",
   "main": "src/index.ts",
@@ -27,5 +27,15 @@
   "dependencies": {
     "react": "^18.2.0",
     "typescript": "^5.3.3"
+  },
+  "release": {
+    "branches": [
+      "master",
+      "next"
+    ]
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
   }
 }
