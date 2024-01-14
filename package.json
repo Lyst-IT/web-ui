@@ -6,6 +6,9 @@
   "files": [
     "src/**/*"
   ],
+  "directories": {
+    "src": "src"
+  },
   "repository": {
     "url": "https://github.com/Lyst-IT/web-ui.git",
     "type": "git"
